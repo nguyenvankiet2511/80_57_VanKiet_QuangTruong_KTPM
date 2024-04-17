@@ -117,7 +117,11 @@ namespace _80_57_VanKiet_QuangTruong_BTL_KTPM
 
             SetUp();
             //gbfgbr();
-            DangKy();
+            driver.FindElement(By.XPath("/html/body/div[1]/div[3]/div/div/div[1]/div/div/div[2]/div[2]/div[1]/div/div[4]/li")).Click();
+            Thread.Sleep(5000);
+            driver.FindElement(By.XPath("/html/body/div[1]/div[3]/div/div/div[1]/div/div/div[2]/div[2]/div[2]/div[3]/div/div/div/button")).Click();
+            Thread.Sleep(5000);
+            driver.FindElement(By.CssSelector("input[type='file']")).SendKeys(@"E:\KTPM\video_test\mp3_158kb.mp3");
         }
 
         public Form1()
@@ -128,11 +132,7 @@ namespace _80_57_VanKiet_QuangTruong_BTL_KTPM
         public void gbfgbr()
         {
         
-            driver.FindElement(By.XPath("/html/body/div[1]/div[3]/div/div/div[1]/div/div/div[2]/div[2]/div[1]/div/div[4]/li")).Click();
-            Thread.Sleep(5000);
-            driver.FindElement(By.XPath("/html/body/div[1]/div[3]/div/div/div[1]/div/div/div[2]/div[2]/div[2]/div[3]/div/div/div/button")).Click();
-            Thread.Sleep(5000);
-            driver.FindElement(By.CssSelector("input[type='file']")).SendKeys(@"E:\KTPM\video_test\mp3_158kb.mp3");
+            
         }
         public void DangKy()
         {
