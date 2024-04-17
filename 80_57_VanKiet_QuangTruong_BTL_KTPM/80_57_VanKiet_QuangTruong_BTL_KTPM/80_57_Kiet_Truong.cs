@@ -38,15 +38,36 @@ namespace _80_57_VanKiet_QuangTruong_BTL_KTPM
             driver_80_57.Navigate().GoToUrl(siteURL);
         }
 
-        private void btnTC1_TKAmThanhTC_80_57_Kiet_Truong_Click(object sender, EventArgs e)
+        private void btnTC1_TKAmThanhTC_80_Kiet_Click(object sender, EventArgs e)
         {
-            //80_57_VanKiet_QuangTruong
+            //80_VanKiet
             navigate();//Chạy trang https://www.shutterstock.com/vi
             driver_80_57.FindElement(By.XPath("/html/body/div[1]/div[3]/div/div/div[1]/div/div/div[2]/div[2]/div[1]/div/div[4]/li")).Click();
             Thread.Sleep(3000);//đợi trang load
             driver_80_57.FindElement(By.XPath("/html/body/div[1]/div[3]/div/div/div[1]/div/div/div[2]/div[2]/div[2]/div[3]/div/div/div/button")).Click();
             Thread.Sleep(3000);//đợi trang load
             driver_80_57.FindElement(By.CssSelector("input[type='file']")).SendKeys(@"E:\KTPM\video_test\mp3_158kb.mp3");
+        }
+        private void btnTC2_TKAmThanh_SaiDinhDang_80_Kiet_Click(object sender, EventArgs e)
+        {
+            //80_VanKiet
+            navigate();//Chạy trang https://www.shutterstock.com/vi
+            driver_80_57.FindElement(By.XPath("/html/body/div[1]/div[3]/div/div/div[1]/div/div/div[2]/div[2]/div[1]/div/div[4]/li")).Click();
+            Thread.Sleep(3000);//đợi trang load
+            driver_80_57.FindElement(By.XPath("/html/body/div[1]/div[3]/div/div/div[1]/div/div/div[2]/div[2]/div[2]/div[3]/div/div/div/button")).Click();
+            Thread.Sleep(3000);//đợi trang load
+            driver_80_57.FindElement(By.CssSelector("input[type='file']")).SendKeys(@"E:\KTPM\video_test\mkv_24mb.mkv");
+        }
+
+        private void btnTC3_TKAmThanh_SaiDungLuong_80_Kiet_Click(object sender, EventArgs e)
+        {
+            //80_VanKiet
+            navigate();//Chạy trang https://www.shutterstock.com/vi
+            driver_80_57.FindElement(By.XPath("/html/body/div[1]/div[3]/div/div/div[1]/div/div/div[2]/div[2]/div[1]/div/div[4]/li")).Click();
+            Thread.Sleep(3000);//đợi trang load
+            driver_80_57.FindElement(By.XPath("/html/body/div[1]/div[3]/div/div/div[1]/div/div/div[2]/div[2]/div[2]/div[3]/div/div/div/button")).Click();
+            Thread.Sleep(3000);//đợi trang load
+            driver_80_57.FindElement(By.CssSelector("input[type='file']")).SendKeys(@"E:\KTPM\video_test\mp3_76mb.mp3");
         }
     }
 }
