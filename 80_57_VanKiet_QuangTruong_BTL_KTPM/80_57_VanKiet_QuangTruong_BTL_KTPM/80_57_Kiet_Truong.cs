@@ -20,14 +20,26 @@ namespace _80_57_VanKiet_QuangTruong_BTL_KTPM
         private const string siteURL = "https://www.shutterstock.com/vi";
         public Form1()
         {
-            InitializeComponent();
-            setUp();
+            InitializeComponent();   
         }
-        private void setUp()
+        private void setUp(int profile)
         {//80_57_VanKiet_QuangTruong
             var options = new ChromeOptions();
-            options.AddArgument("C:\\Users\\Admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default");
-            options.AddArgument("profile-directory=Default");
+            if(profile == 0)
+            {
+                options.AddArgument("user-data-dir=C:\\Users\\Admin\\AppData\\Local\\Google\\Chrome\\User Data\\");
+                options.AddArgument("profile-directory=Default");
+            }
+            else if(profile == 1)
+            {
+                options.AddArgument("user-data-dir=C:\\Users\\Admin\\AppData\\Local\\Google\\Chrome\\User Data\\");
+                options.AddArgument("profile-directory=profile 2");
+            }
+            else if (profile == 2)
+            {
+                options.AddArgument("user-data-dir=C:\\Users\\Admin\\AppData\\Local\\Google\\Chrome\\User Data\\");
+                options.AddArgument("profile-directory=profile 2");
+            }
             options.AddArgument("--start-maximized");
             var service = ChromeDriverService.CreateDefaultService();
             service.HideCommandPromptWindow = true;
@@ -41,6 +53,7 @@ namespace _80_57_VanKiet_QuangTruong_BTL_KTPM
         private void btnTC1_TKAmThanhTC_80_Kiet_Click(object sender, EventArgs e)
         {
             //80_VanKiet
+            setUp(1);
             navigate();//Chạy trang https://www.shutterstock.com/vi
             driver_80_57.FindElement(By.XPath("/html/body/div[1]/div[3]/div/div/div[1]/div/div/div[2]/div[2]/div[1]/div/div[4]/li")).Click();
             Thread.Sleep(3000);//đợi trang load
@@ -51,6 +64,7 @@ namespace _80_57_VanKiet_QuangTruong_BTL_KTPM
         private void btnTC2_TKAmThanh_SaiDinhDang_80_Kiet_Click(object sender, EventArgs e)
         {
             //80_VanKiet
+            setUp(1);
             navigate();//Chạy trang https://www.shutterstock.com/vi
             driver_80_57.FindElement(By.XPath("/html/body/div[1]/div[3]/div/div/div[1]/div/div/div[2]/div[2]/div[1]/div/div[4]/li")).Click();
             Thread.Sleep(3000);//đợi trang load
@@ -62,12 +76,40 @@ namespace _80_57_VanKiet_QuangTruong_BTL_KTPM
         private void btnTC3_TKAmThanh_SaiDungLuong_80_Kiet_Click(object sender, EventArgs e)
         {
             //80_VanKiet
+            setUp(1);
             navigate();//Chạy trang https://www.shutterstock.com/vi
             driver_80_57.FindElement(By.XPath("/html/body/div[1]/div[3]/div/div/div[1]/div/div/div[2]/div[2]/div[1]/div/div[4]/li")).Click();
             Thread.Sleep(3000);//đợi trang load
             driver_80_57.FindElement(By.XPath("/html/body/div[1]/div[3]/div/div/div[1]/div/div/div[2]/div[2]/div[2]/div[3]/div/div/div/button")).Click();
             Thread.Sleep(3000);//đợi trang load
             driver_80_57.FindElement(By.CssSelector("input[type='file']")).SendKeys(@"E:\KTPM\video_test\mp3_76mb.mp3");
+        }
+
+        private void btn_TC1_LuuVaoBoSuuTapCN_80_VanKiet_Click(object sender, EventArgs e)
+        {
+            setUp(0);//Profile đã đăng nhập
+            driver_80_57.Navigate().GoToUrl("https://www.shutterstock.com/vi/image-photo/man-stroking-his-old-dog-loyal-2214665467");
+            //80_Kiet
+            driver_80_57.FindElement(By.XPath("/html/body/div[1]/div[3]/div/div/div[1]/div[2]/div[1]/div/div/div/div[1]/div/div[2]/div/div[1]/div[2]/div[1]/div[1]/button")).Click();
+            //80_Kiet
+            driver_80_57.FindElement(By.XPath("/html/body/div[8]/div[3]/div/div/div[2]/div[2]/div[2]/div/button")).Click();
+        }
+
+        private void btn_TC2_LuuVaoBoSuuTapMD_80_Kiet_Click(object sender, EventArgs e)
+        {
+            setUp(1);//Profile đã đăng nhâp
+            driver_80_57.Navigate().GoToUrl("https://www.shutterstock.com/vi/image-photo/man-stroking-his-old-dog-loyal-2214665467");
+            //80_Kiet
+            driver_80_57.FindElement(By.XPath("/html/body/div[1]/div[3]/div/div/div[1]/div[2]/div[1]/div/div/div/div[1]/div/div[2]/div/div[1]/div[2]/div[1]/div[1]/button")).Click();
+        }
+
+        private void btn_TC3_BoSuuTap_ChuyenTrangLogin_80_Kiet_Click(object sender, EventArgs e)
+        {
+            setUp(2);//Profile chưa đăng nhập
+            driver_80_57.Navigate().GoToUrl("https://www.shutterstock.com/vi/image-photo/man-stroking-his-old-dog-loyal-2214665467");
+            //80_Kiet
+            driver_80_57.FindElement(By.XPath("/html/body/div[1]/div[3]/div/div/div[1]/div[2]/div[1]/div/div/div/div[1]/div/div[2]/div/div[1]/div[2]/div[1]/div[1]/button")).Click();
+
         }
     }
 }
