@@ -36,6 +36,14 @@
             this.btn_TC3_BoSuuTap_ChuyenTrangLogin_80_Kiet = new System.Windows.Forms.Button();
             this.btn_TC1_TaoThietKe_ThanhCong_80_57_Kiet_Truong = new System.Windows.Forms.Button();
             this.btn_TC2_TaoThietKe_TenThietKeTrong_80_57_Kiet_Truong = new System.Windows.Forms.Button();
+            this.Btn1_TKHinhAnh = new System.Windows.Forms.Button();
+            this.Btn2_TKhinhanh = new System.Windows.Forms.Button();
+            this.Btn3_KTHinhAnh = new System.Windows.Forms.Button();
+            this.Btn1_ChuyenDoi = new System.Windows.Forms.Button();
+            this.Btn2_ChuyenDoi = new System.Windows.Forms.Button();
+            this.Btn3_ChuyenDoi = new System.Windows.Forms.Button();
+            this.btn_TC3_TaoThietKe_ThanhCong_80_57_Kiet_Truong = new System.Windows.Forms.Button();
+            this.btn_TC4_TaoThietKe_ThanhCong_80_57_Kiet_Truong = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnTC1_TKAmThanhTC_80_Kiet
@@ -56,7 +64,7 @@
             this.btnTC2_TKAmThanh_SaiDinhDang_80_Kiet.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.btnTC2_TKAmThanh_SaiDinhDang_80_Kiet.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTC2_TKAmThanh_SaiDinhDang_80_Kiet.ForeColor = System.Drawing.SystemColors.Info;
-            this.btnTC2_TKAmThanh_SaiDinhDang_80_Kiet.Location = new System.Drawing.Point(32, 106);
+            this.btnTC2_TKAmThanh_SaiDinhDang_80_Kiet.Location = new System.Drawing.Point(32, 92);
             this.btnTC2_TKAmThanh_SaiDinhDang_80_Kiet.Name = "btnTC2_TKAmThanh_SaiDinhDang_80_Kiet";
             this.btnTC2_TKAmThanh_SaiDinhDang_80_Kiet.Size = new System.Drawing.Size(531, 52);
             this.btnTC2_TKAmThanh_SaiDinhDang_80_Kiet.TabIndex = 1;
@@ -69,7 +77,7 @@
             this.btnTC3_TKAmThanh_SaiDungLuong_80_Kiet.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.btnTC3_TKAmThanh_SaiDungLuong_80_Kiet.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTC3_TKAmThanh_SaiDungLuong_80_Kiet.ForeColor = System.Drawing.SystemColors.Info;
-            this.btnTC3_TKAmThanh_SaiDungLuong_80_Kiet.Location = new System.Drawing.Point(32, 203);
+            this.btnTC3_TKAmThanh_SaiDungLuong_80_Kiet.Location = new System.Drawing.Point(32, 166);
             this.btnTC3_TKAmThanh_SaiDungLuong_80_Kiet.Name = "btnTC3_TKAmThanh_SaiDungLuong_80_Kiet";
             this.btnTC3_TKAmThanh_SaiDungLuong_80_Kiet.Size = new System.Drawing.Size(531, 52);
             this.btnTC3_TKAmThanh_SaiDungLuong_80_Kiet.TabIndex = 2;
@@ -82,7 +90,7 @@
             this.btn_TC1_LuuVaoBoSuuTapCN_80_VanKiet.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.btn_TC1_LuuVaoBoSuuTapCN_80_VanKiet.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_TC1_LuuVaoBoSuuTapCN_80_VanKiet.ForeColor = System.Drawing.SystemColors.Info;
-            this.btn_TC1_LuuVaoBoSuuTapCN_80_VanKiet.Location = new System.Drawing.Point(32, 288);
+            this.btn_TC1_LuuVaoBoSuuTapCN_80_VanKiet.Location = new System.Drawing.Point(32, 243);
             this.btn_TC1_LuuVaoBoSuuTapCN_80_VanKiet.Name = "btn_TC1_LuuVaoBoSuuTapCN_80_VanKiet";
             this.btn_TC1_LuuVaoBoSuuTapCN_80_VanKiet.Size = new System.Drawing.Size(531, 52);
             this.btn_TC1_LuuVaoBoSuuTapCN_80_VanKiet.TabIndex = 3;
@@ -95,7 +103,7 @@
             this.btn_TC2_LuuVaoBoSuuTapMD_80_Kiet.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.btn_TC2_LuuVaoBoSuuTapMD_80_Kiet.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_TC2_LuuVaoBoSuuTapMD_80_Kiet.ForeColor = System.Drawing.SystemColors.Info;
-            this.btn_TC2_LuuVaoBoSuuTapMD_80_Kiet.Location = new System.Drawing.Point(32, 381);
+            this.btn_TC2_LuuVaoBoSuuTapMD_80_Kiet.Location = new System.Drawing.Point(32, 315);
             this.btn_TC2_LuuVaoBoSuuTapMD_80_Kiet.Name = "btn_TC2_LuuVaoBoSuuTapMD_80_Kiet";
             this.btn_TC2_LuuVaoBoSuuTapMD_80_Kiet.Size = new System.Drawing.Size(531, 52);
             this.btn_TC2_LuuVaoBoSuuTapMD_80_Kiet.TabIndex = 4;
@@ -108,7 +116,7 @@
             this.btn_TC3_BoSuuTap_ChuyenTrangLogin_80_Kiet.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.btn_TC3_BoSuuTap_ChuyenTrangLogin_80_Kiet.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_TC3_BoSuuTap_ChuyenTrangLogin_80_Kiet.ForeColor = System.Drawing.SystemColors.Info;
-            this.btn_TC3_BoSuuTap_ChuyenTrangLogin_80_Kiet.Location = new System.Drawing.Point(32, 467);
+            this.btn_TC3_BoSuuTap_ChuyenTrangLogin_80_Kiet.Location = new System.Drawing.Point(32, 396);
             this.btn_TC3_BoSuuTap_ChuyenTrangLogin_80_Kiet.Name = "btn_TC3_BoSuuTap_ChuyenTrangLogin_80_Kiet";
             this.btn_TC3_BoSuuTap_ChuyenTrangLogin_80_Kiet.Size = new System.Drawing.Size(531, 52);
             this.btn_TC3_BoSuuTap_ChuyenTrangLogin_80_Kiet.TabIndex = 5;
@@ -121,7 +129,7 @@
             this.btn_TC1_TaoThietKe_ThanhCong_80_57_Kiet_Truong.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.btn_TC1_TaoThietKe_ThanhCong_80_57_Kiet_Truong.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_TC1_TaoThietKe_ThanhCong_80_57_Kiet_Truong.ForeColor = System.Drawing.SystemColors.Info;
-            this.btn_TC1_TaoThietKe_ThanhCong_80_57_Kiet_Truong.Location = new System.Drawing.Point(607, 22);
+            this.btn_TC1_TaoThietKe_ThanhCong_80_57_Kiet_Truong.Location = new System.Drawing.Point(32, 467);
             this.btn_TC1_TaoThietKe_ThanhCong_80_57_Kiet_Truong.Name = "btn_TC1_TaoThietKe_ThanhCong_80_57_Kiet_Truong";
             this.btn_TC1_TaoThietKe_ThanhCong_80_57_Kiet_Truong.Size = new System.Drawing.Size(531, 52);
             this.btn_TC1_TaoThietKe_ThanhCong_80_57_Kiet_Truong.TabIndex = 6;
@@ -134,7 +142,7 @@
             this.btn_TC2_TaoThietKe_TenThietKeTrong_80_57_Kiet_Truong.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.btn_TC2_TaoThietKe_TenThietKeTrong_80_57_Kiet_Truong.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_TC2_TaoThietKe_TenThietKeTrong_80_57_Kiet_Truong.ForeColor = System.Drawing.SystemColors.Info;
-            this.btn_TC2_TaoThietKe_TenThietKeTrong_80_57_Kiet_Truong.Location = new System.Drawing.Point(607, 106);
+            this.btn_TC2_TaoThietKe_TenThietKeTrong_80_57_Kiet_Truong.Location = new System.Drawing.Point(32, 549);
             this.btn_TC2_TaoThietKe_TenThietKeTrong_80_57_Kiet_Truong.Name = "btn_TC2_TaoThietKe_TenThietKeTrong_80_57_Kiet_Truong";
             this.btn_TC2_TaoThietKe_TenThietKeTrong_80_57_Kiet_Truong.Size = new System.Drawing.Size(531, 52);
             this.btn_TC2_TaoThietKe_TenThietKeTrong_80_57_Kiet_Truong.TabIndex = 7;
@@ -142,11 +150,123 @@
             this.btn_TC2_TaoThietKe_TenThietKeTrong_80_57_Kiet_Truong.UseVisualStyleBackColor = false;
             this.btn_TC2_TaoThietKe_TenThietKeTrong_80_57_Kiet_Truong.Click += new System.EventHandler(this.btn_TC2_TaoThietKe_TenThietKeTrong_80_57_Kiet_Truong_Click);
             // 
+            // Btn1_TKHinhAnh
+            // 
+            this.Btn1_TKHinhAnh.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.Btn1_TKHinhAnh.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn1_TKHinhAnh.ForeColor = System.Drawing.SystemColors.Info;
+            this.Btn1_TKHinhAnh.Location = new System.Drawing.Point(597, 22);
+            this.Btn1_TKHinhAnh.Name = "Btn1_TKHinhAnh";
+            this.Btn1_TKHinhAnh.Size = new System.Drawing.Size(608, 52);
+            this.Btn1_TKHinhAnh.TabIndex = 8;
+            this.Btn1_TKHinhAnh.Text = "TC1_TimKiemHinhAnh_ThanhCong_57_QuangTruong";
+            this.Btn1_TKHinhAnh.UseVisualStyleBackColor = false;
+            this.Btn1_TKHinhAnh.Click += new System.EventHandler(this.Btn1_TKHinhAnh_Click);
+            // 
+            // Btn2_TKhinhanh
+            // 
+            this.Btn2_TKhinhanh.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.Btn2_TKhinhanh.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn2_TKhinhanh.ForeColor = System.Drawing.SystemColors.Info;
+            this.Btn2_TKhinhanh.Location = new System.Drawing.Point(597, 92);
+            this.Btn2_TKhinhanh.Name = "Btn2_TKhinhanh";
+            this.Btn2_TKhinhanh.Size = new System.Drawing.Size(608, 52);
+            this.Btn2_TKhinhanh.TabIndex = 9;
+            this.Btn2_TKhinhanh.Text = "TC2_TimKiemHinhAnh_SaiDinhDang_57_QuangTruong";
+            this.Btn2_TKhinhanh.UseVisualStyleBackColor = false;
+            this.Btn2_TKhinhanh.Click += new System.EventHandler(this.Btn2_TKhinhanh_Click);
+            // 
+            // Btn3_KTHinhAnh
+            // 
+            this.Btn3_KTHinhAnh.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.Btn3_KTHinhAnh.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn3_KTHinhAnh.ForeColor = System.Drawing.SystemColors.Info;
+            this.Btn3_KTHinhAnh.Location = new System.Drawing.Point(597, 166);
+            this.Btn3_KTHinhAnh.Name = "Btn3_KTHinhAnh";
+            this.Btn3_KTHinhAnh.Size = new System.Drawing.Size(608, 52);
+            this.Btn3_KTHinhAnh.TabIndex = 10;
+            this.Btn3_KTHinhAnh.Text = "TC3_TimKiemHinhAnh_LonHon25MB_57_QuangTruong";
+            this.Btn3_KTHinhAnh.UseVisualStyleBackColor = false;
+            this.Btn3_KTHinhAnh.Click += new System.EventHandler(this.Btn3_KTHinhAnh_Click);
+            // 
+            // Btn1_ChuyenDoi
+            // 
+            this.Btn1_ChuyenDoi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.Btn1_ChuyenDoi.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn1_ChuyenDoi.ForeColor = System.Drawing.SystemColors.Info;
+            this.Btn1_ChuyenDoi.Location = new System.Drawing.Point(597, 243);
+            this.Btn1_ChuyenDoi.Name = "Btn1_ChuyenDoi";
+            this.Btn1_ChuyenDoi.Size = new System.Drawing.Size(608, 52);
+            this.Btn1_ChuyenDoi.TabIndex = 11;
+            this.Btn1_ChuyenDoi.Text = "TC1_ChuyenDoiHinhAnh_ThanhCong_57_QuangTruong";
+            this.Btn1_ChuyenDoi.UseVisualStyleBackColor = false;
+            this.Btn1_ChuyenDoi.Click += new System.EventHandler(this.Btn1_ChuyenDoi_Click);
+            // 
+            // Btn2_ChuyenDoi
+            // 
+            this.Btn2_ChuyenDoi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.Btn2_ChuyenDoi.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn2_ChuyenDoi.ForeColor = System.Drawing.SystemColors.Info;
+            this.Btn2_ChuyenDoi.Location = new System.Drawing.Point(597, 315);
+            this.Btn2_ChuyenDoi.Name = "Btn2_ChuyenDoi";
+            this.Btn2_ChuyenDoi.Size = new System.Drawing.Size(608, 52);
+            this.Btn2_ChuyenDoi.TabIndex = 12;
+            this.Btn2_ChuyenDoi.Text = "TC2_ChuyenDoiHinhAnh_SaiDinhDang_57_QuangTruong";
+            this.Btn2_ChuyenDoi.UseVisualStyleBackColor = false;
+            this.Btn2_ChuyenDoi.Click += new System.EventHandler(this.Btn2_ChuyenDoi_Click);
+            // 
+            // Btn3_ChuyenDoi
+            // 
+            this.Btn3_ChuyenDoi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.Btn3_ChuyenDoi.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn3_ChuyenDoi.ForeColor = System.Drawing.SystemColors.Info;
+            this.Btn3_ChuyenDoi.Location = new System.Drawing.Point(597, 396);
+            this.Btn3_ChuyenDoi.Name = "Btn3_ChuyenDoi";
+            this.Btn3_ChuyenDoi.Size = new System.Drawing.Size(608, 52);
+            this.Btn3_ChuyenDoi.TabIndex = 13;
+            this.Btn3_ChuyenDoi.Text = "TC3_ChuyenDoiHinhAnh_BoTickDinhDang_57_QuangTruong";
+            this.Btn3_ChuyenDoi.UseVisualStyleBackColor = false;
+            this.Btn3_ChuyenDoi.Click += new System.EventHandler(this.Btn3_ChuyenDoi_Click);
+            // 
+            // btn_TC3_TaoThietKe_ThanhCong_80_57_Kiet_Truong
+            // 
+            this.btn_TC3_TaoThietKe_ThanhCong_80_57_Kiet_Truong.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btn_TC3_TaoThietKe_ThanhCong_80_57_Kiet_Truong.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_TC3_TaoThietKe_ThanhCong_80_57_Kiet_Truong.ForeColor = System.Drawing.SystemColors.Info;
+            this.btn_TC3_TaoThietKe_ThanhCong_80_57_Kiet_Truong.Location = new System.Drawing.Point(597, 467);
+            this.btn_TC3_TaoThietKe_ThanhCong_80_57_Kiet_Truong.Name = "btn_TC3_TaoThietKe_ThanhCong_80_57_Kiet_Truong";
+            this.btn_TC3_TaoThietKe_ThanhCong_80_57_Kiet_Truong.Size = new System.Drawing.Size(608, 52);
+            this.btn_TC3_TaoThietKe_ThanhCong_80_57_Kiet_Truong.TabIndex = 14;
+            this.btn_TC3_TaoThietKe_ThanhCong_80_57_Kiet_Truong.Text = "TC3_TaoThietKe_ChieuRongSai_80_57_Kiet_Truong";
+            this.btn_TC3_TaoThietKe_ThanhCong_80_57_Kiet_Truong.UseVisualStyleBackColor = false;
+            this.btn_TC3_TaoThietKe_ThanhCong_80_57_Kiet_Truong.Click += new System.EventHandler(this.btn_TC3_TaoThietKe_ThanhCong_80_57_Kiet_Truong_Click);
+            // 
+            // btn_TC4_TaoThietKe_ThanhCong_80_57_Kiet_Truong
+            // 
+            this.btn_TC4_TaoThietKe_ThanhCong_80_57_Kiet_Truong.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btn_TC4_TaoThietKe_ThanhCong_80_57_Kiet_Truong.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_TC4_TaoThietKe_ThanhCong_80_57_Kiet_Truong.ForeColor = System.Drawing.SystemColors.Info;
+            this.btn_TC4_TaoThietKe_ThanhCong_80_57_Kiet_Truong.Location = new System.Drawing.Point(597, 549);
+            this.btn_TC4_TaoThietKe_ThanhCong_80_57_Kiet_Truong.Name = "btn_TC4_TaoThietKe_ThanhCong_80_57_Kiet_Truong";
+            this.btn_TC4_TaoThietKe_ThanhCong_80_57_Kiet_Truong.Size = new System.Drawing.Size(608, 52);
+            this.btn_TC4_TaoThietKe_ThanhCong_80_57_Kiet_Truong.TabIndex = 15;
+            this.btn_TC4_TaoThietKe_ThanhCong_80_57_Kiet_Truong.Text = "TC4_TaoThietKe_ChieuDaiSai_80_57_Kiet_Truong";
+            this.btn_TC4_TaoThietKe_ThanhCong_80_57_Kiet_Truong.UseVisualStyleBackColor = false;
+            this.btn_TC4_TaoThietKe_ThanhCong_80_57_Kiet_Truong.Click += new System.EventHandler(this.btn_TC4_TaoThietKe_ThanhCong_80_57_Kiet_Truong_Click);
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1150, 553);
+            this.ClientSize = new System.Drawing.Size(1251, 620);
+            this.Controls.Add(this.btn_TC4_TaoThietKe_ThanhCong_80_57_Kiet_Truong);
+            this.Controls.Add(this.btn_TC3_TaoThietKe_ThanhCong_80_57_Kiet_Truong);
+            this.Controls.Add(this.Btn3_ChuyenDoi);
+            this.Controls.Add(this.Btn2_ChuyenDoi);
+            this.Controls.Add(this.Btn1_ChuyenDoi);
+            this.Controls.Add(this.Btn3_KTHinhAnh);
+            this.Controls.Add(this.Btn2_TKhinhanh);
+            this.Controls.Add(this.Btn1_TKHinhAnh);
             this.Controls.Add(this.btn_TC2_TaoThietKe_TenThietKeTrong_80_57_Kiet_Truong);
             this.Controls.Add(this.btn_TC1_TaoThietKe_ThanhCong_80_57_Kiet_Truong);
             this.Controls.Add(this.btn_TC3_BoSuuTap_ChuyenTrangLogin_80_Kiet);
@@ -172,6 +292,14 @@
         private System.Windows.Forms.Button btn_TC3_BoSuuTap_ChuyenTrangLogin_80_Kiet;
         private System.Windows.Forms.Button btn_TC1_TaoThietKe_ThanhCong_80_57_Kiet_Truong;
         private System.Windows.Forms.Button btn_TC2_TaoThietKe_TenThietKeTrong_80_57_Kiet_Truong;
+        private System.Windows.Forms.Button Btn1_TKHinhAnh;
+        private System.Windows.Forms.Button Btn2_TKhinhanh;
+        private System.Windows.Forms.Button Btn3_KTHinhAnh;
+        private System.Windows.Forms.Button Btn1_ChuyenDoi;
+        private System.Windows.Forms.Button Btn2_ChuyenDoi;
+        private System.Windows.Forms.Button Btn3_ChuyenDoi;
+        private System.Windows.Forms.Button btn_TC3_TaoThietKe_ThanhCong_80_57_Kiet_Truong;
+        private System.Windows.Forms.Button btn_TC4_TaoThietKe_ThanhCong_80_57_Kiet_Truong;
     }
 }
 
