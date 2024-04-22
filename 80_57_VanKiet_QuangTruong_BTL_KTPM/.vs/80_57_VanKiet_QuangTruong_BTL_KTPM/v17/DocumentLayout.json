@@ -13,6 +13,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{68A72414-2F67-4698-B8B7-62F4F2D32101}|80_57_VanKiet_QuangTruong_BTL_KTPM\\80_57_VanKiet_QuangTruong_BTL_KTPM.csproj|C:\\Users\\Admin\\Desktop\\80_57_VanKiet_QuangTruong_KTPM\\80_57_VanKiet_QuangTruong_BTL_KTPM\\80_57_vankiet_quangtruong_btl_ktpm\\80_57_kiet_truong.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{68A72414-2F67-4698-B8B7-62F4F2D32101}|80_57_VanKiet_QuangTruong_BTL_KTPM\\80_57_VanKiet_QuangTruong_BTL_KTPM.csproj|solutionrelative:80_57_vankiet_quangtruong_btl_ktpm\\80_57_kiet_truong.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A72414-2F67-4698-B8B7-62F4F2D32101}|80_57_VanKiet_QuangTruong_BTL_KTPM\\80_57_VanKiet_QuangTruong_BTL_KTPM.csproj|C:\\Users\\Admin\\Desktop\\80_57_VanKiet_QuangTruong_KTPM\\80_57_VanKiet_QuangTruong_BTL_KTPM\\80_57_vankiet_quangtruong_btl_ktpm\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{68A72414-2F67-4698-B8B7-62F4F2D32101}|80_57_VanKiet_QuangTruong_BTL_KTPM\\80_57_VanKiet_QuangTruong_BTL_KTPM.csproj|solutionrelative:80_57_vankiet_quangtruong_btl_ktpm\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,11 +36,23 @@
               "RelativeDocumentMoniker": "80_57_VanKiet_QuangTruong_BTL_KTPM\\80_57_Kiet_Truong.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\80_57_VanKiet_QuangTruong_KTPM\\80_57_VanKiet_QuangTruong_BTL_KTPM\\80_57_VanKiet_QuangTruong_BTL_KTPM\\80_57_Kiet_Truong.cs",
               "RelativeToolTip": "80_57_VanKiet_QuangTruong_BTL_KTPM\\80_57_Kiet_Truong.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAnwCoAAAARAAAA",
+              "ViewState": "AQIAAIsAAAAAAAAAAAAjwKAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-14T03:00:45.035Z",
               "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\80_57_VanKiet_QuangTruong_KTPM\\80_57_VanKiet_QuangTruong_BTL_KTPM\\80_57_VanKiet_QuangTruong_BTL_KTPM\\packages.config",
+              "RelativeDocumentMoniker": "80_57_VanKiet_QuangTruong_BTL_KTPM\\packages.config",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\80_57_VanKiet_QuangTruong_KTPM\\80_57_VanKiet_QuangTruong_BTL_KTPM\\80_57_VanKiet_QuangTruong_BTL_KTPM\\packages.config",
+              "RelativeToolTip": "80_57_VanKiet_QuangTruong_BTL_KTPM\\packages.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-04-18T06:19:54.307Z"
             },
             {
               "$type": "Document",
@@ -46,10 +62,9 @@
               "RelativeDocumentMoniker": "80_57_VanKiet_QuangTruong_BTL_KTPM\\80_57_Kiet_Truong.Designer.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\80_57_VanKiet_QuangTruong_KTPM\\80_57_VanKiet_QuangTruong_BTL_KTPM\\80_57_VanKiet_QuangTruong_BTL_KTPM\\80_57_Kiet_Truong.Designer.cs",
               "RelativeToolTip": "80_57_VanKiet_QuangTruong_BTL_KTPM\\80_57_Kiet_Truong.Designer.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAADgvzsAAACIAAAA",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAYwHQAAACSAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T03:08:02.469Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T03:08:02.469Z"
             },
             {
               "$type": "Document",
@@ -60,8 +75,7 @@
               "ToolTip": "C:\\Users\\Admin\\Desktop\\80_57_VanKiet_QuangTruong_KTPM\\80_57_VanKiet_QuangTruong_BTL_KTPM\\80_57_VanKiet_QuangTruong_BTL_KTPM\\80_57_Kiet_Truong.cs [Design]",
               "RelativeToolTip": "80_57_VanKiet_QuangTruong_BTL_KTPM\\80_57_Kiet_Truong.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T02:31:27.003Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-11T02:31:27.003Z"
             }
           ]
         }
