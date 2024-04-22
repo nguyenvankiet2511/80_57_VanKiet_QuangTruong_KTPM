@@ -1,0 +1,148 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\KTPM\\80_57_Kiet_Truong_KTPM_MSUnit\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AEB3E563-AED9-462D-BEB5-E9C64883B700}|UnitTest57_QuangTruong\\UnitTest57_QuangTruong.csproj|e:\\ktpm\\80_57_kiet_truong_ktpm_msunit\\unittest57_quangtruong\\unittestcircle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEB3E563-AED9-462D-BEB5-E9C64883B700}|UnitTest57_QuangTruong\\UnitTest57_QuangTruong.csproj|solutionrelative:unittest57_quangtruong\\unittestcircle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90D616E7-9FE6-4112-BBBA-E6163A49F84A}|80_57_Kiet_Truong_KTPM_MSUnit\\80_57_Kiet_Truong_KTPM_MSUnit.csproj|E:\\KTPM\\80_57_Kiet_Truong_KTPM_MSUnit\\80_57_kiet_truong_ktpm_msunit\\circlecalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90D616E7-9FE6-4112-BBBA-E6163A49F84A}|80_57_Kiet_Truong_KTPM_MSUnit\\80_57_Kiet_Truong_KTPM_MSUnit.csproj|solutionrelative:80_57_kiet_truong_ktpm_msunit\\circlecalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{874A46B1-0348-46B1-971E-073C8A886299}|UnitTestTriangle\\UnitTest80_VanKiet.csproj|E:\\KTPM\\80_57_Kiet_Truong_KTPM_MSUnit\\unittesttriangle\\unittestshape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{874A46B1-0348-46B1-971E-073C8A886299}|UnitTestTriangle\\UnitTest80_VanKiet.csproj|solutionrelative:unittesttriangle\\unittestshape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEB3E563-AED9-462D-BEB5-E9C64883B700}|UnitTest57_QuangTruong\\UnitTest57_QuangTruong.csproj|E:\\KTPM\\80_57_Kiet_Truong_KTPM_MSUnit\\unittest57_quangtruong\\data_57_quangtruong\\datatest_57.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{AEB3E563-AED9-462D-BEB5-E9C64883B700}|UnitTest57_QuangTruong\\UnitTest57_QuangTruong.csproj|solutionrelative:unittest57_quangtruong\\data_57_quangtruong\\datatest_57.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{874A46B1-0348-46B1-971E-073C8A886299}|UnitTestTriangle\\UnitTest80_VanKiet.csproj|E:\\KTPM\\80_57_Kiet_Truong_KTPM_MSUnit\\unittesttriangle\\data_80_vankiet\\datatest_80.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{874A46B1-0348-46B1-971E-073C8A886299}|UnitTestTriangle\\UnitTest80_VanKiet.csproj|solutionrelative:unittesttriangle\\data_80_vankiet\\datatest_80.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90D616E7-9FE6-4112-BBBA-E6163A49F84A}|80_57_Kiet_Truong_KTPM_MSUnit\\80_57_Kiet_Truong_KTPM_MSUnit.csproj|E:\\KTPM\\80_57_Kiet_Truong_KTPM_MSUnit\\80_57_kiet_truong_ktpm_msunit\\shapecalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90D616E7-9FE6-4112-BBBA-E6163A49F84A}|80_57_Kiet_Truong_KTPM_MSUnit\\80_57_Kiet_Truong_KTPM_MSUnit.csproj|solutionrelative:80_57_kiet_truong_ktpm_msunit\\shapecalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90D616E7-9FE6-4112-BBBA-E6163A49F84A}|80_57_Kiet_Truong_KTPM_MSUnit\\80_57_Kiet_Truong_KTPM_MSUnit.csproj|E:\\KTPM\\80_57_Kiet_Truong_KTPM_MSUnit\\80_57_kiet_truong_ktpm_msunit\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{90D616E7-9FE6-4112-BBBA-E6163A49F84A}|80_57_Kiet_Truong_KTPM_MSUnit\\80_57_Kiet_Truong_KTPM_MSUnit.csproj|solutionrelative:80_57_kiet_truong_ktpm_msunit\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{874A46B1-0348-46B1-971E-073C8A886299}|UnitTestTriangle\\UnitTestTriangle.csproj|E:\\KTPM\\80_57_Kiet_Truong_KTPM_MSUnit\\unittesttriangle\\unittestshape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{874A46B1-0348-46B1-971E-073C8A886299}|UnitTestTriangle\\UnitTestTriangle.csproj|solutionrelative:unittesttriangle\\unittestshape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataTest_57.csv",
+              "DocumentMoniker": "E:\\KTPM\\80_57_Kiet_Truong_KTPM_MSUnit\\UnitTest57_QuangTruong\\Data_57_QuangTruong\\DataTest_57.csv",
+              "RelativeDocumentMoniker": "UnitTest57_QuangTruong\\Data_57_QuangTruong\\DataTest_57.csv",
+              "ToolTip": "E:\\KTPM\\80_57_Kiet_Truong_KTPM_MSUnit\\UnitTest57_QuangTruong\\Data_57_QuangTruong\\DataTest_57.csv",
+              "RelativeToolTip": "UnitTest57_QuangTruong\\Data_57_QuangTruong\\DataTest_57.csv",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2024-04-21T13:45:05.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTestCircle.cs",
+              "DocumentMoniker": "E:\\KTPM\\80_57_Kiet_Truong_KTPM_MSUnit\\UnitTest57_QuangTruong\\UnitTestCircle.cs",
+              "RelativeDocumentMoniker": "UnitTest57_QuangTruong\\UnitTestCircle.cs",
+              "ToolTip": "E:\\KTPM\\80_57_Kiet_Truong_KTPM_MSUnit\\UnitTest57_QuangTruong\\UnitTestCircle.cs",
+              "RelativeToolTip": "UnitTest57_QuangTruong\\UnitTestCircle.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T13:40:19.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CircleCalculator.cs",
+              "DocumentMoniker": "E:\\KTPM\\80_57_Kiet_Truong_KTPM_MSUnit\\80_57_Kiet_Truong_KTPM_MSUnit\\CircleCalculator.cs",
+              "RelativeDocumentMoniker": "80_57_Kiet_Truong_KTPM_MSUnit\\CircleCalculator.cs",
+              "ToolTip": "E:\\KTPM\\80_57_Kiet_Truong_KTPM_MSUnit\\80_57_Kiet_Truong_KTPM_MSUnit\\CircleCalculator.cs",
+              "RelativeToolTip": "80_57_Kiet_Truong_KTPM_MSUnit\\CircleCalculator.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAIwBEAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T13:37:19.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UnitTestShape.cs",
+              "DocumentMoniker": "E:\\KTPM\\80_57_Kiet_Truong_KTPM_MSUnit\\UnitTestTriangle\\UnitTestShape.cs",
+              "RelativeDocumentMoniker": "UnitTestTriangle\\UnitTestShape.cs",
+              "ToolTip": "E:\\KTPM\\80_57_Kiet_Truong_KTPM_MSUnit\\UnitTestTriangle\\UnitTestShape.cs",
+              "RelativeToolTip": "UnitTestTriangle\\UnitTestShape.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAwwEwAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T03:32:38.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DataTest_80.csv",
+              "DocumentMoniker": "E:\\KTPM\\80_57_Kiet_Truong_KTPM_MSUnit\\UnitTestTriangle\\Data_80_VanKiet\\DataTest_80.csv",
+              "RelativeDocumentMoniker": "UnitTestTriangle\\Data_80_VanKiet\\DataTest_80.csv",
+              "ToolTip": "E:\\KTPM\\80_57_Kiet_Truong_KTPM_MSUnit\\UnitTestTriangle\\Data_80_VanKiet\\DataTest_80.csv",
+              "RelativeToolTip": "UnitTestTriangle\\Data_80_VanKiet\\DataTest_80.csv",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2024-04-21T09:23:25.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ShapeCalculator.cs",
+              "DocumentMoniker": "E:\\KTPM\\80_57_Kiet_Truong_KTPM_MSUnit\\80_57_Kiet_Truong_KTPM_MSUnit\\ShapeCalculator.cs",
+              "RelativeDocumentMoniker": "80_57_Kiet_Truong_KTPM_MSUnit\\ShapeCalculator.cs",
+              "ToolTip": "E:\\KTPM\\80_57_Kiet_Truong_KTPM_MSUnit\\80_57_Kiet_Truong_KTPM_MSUnit\\ShapeCalculator.cs",
+              "RelativeToolTip": "80_57_Kiet_Truong_KTPM_MSUnit\\ShapeCalculator.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwAoAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T02:32:11.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UnitTestShape.cs",
+              "DocumentMoniker": "E:\\KTPM\\80_57_Kiet_Truong_KTPM_MSUnit\\UnitTestTriangle\\UnitTestShape.cs",
+              "RelativeDocumentMoniker": "UnitTestTriangle\\UnitTestShape.cs",
+              "ToolTip": "E:\\KTPM\\80_57_Kiet_Truong_KTPM_MSUnit\\UnitTestTriangle\\UnitTestShape.cs",
+              "RelativeToolTip": "UnitTestTriangle\\UnitTestShape.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T03:09:03.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "E:\\KTPM\\80_57_Kiet_Truong_KTPM_MSUnit\\80_57_Kiet_Truong_KTPM_MSUnit\\Form1.cs",
+              "RelativeDocumentMoniker": "80_57_Kiet_Truong_KTPM_MSUnit\\Form1.cs",
+              "ToolTip": "E:\\KTPM\\80_57_Kiet_Truong_KTPM_MSUnit\\80_57_Kiet_Truong_KTPM_MSUnit\\Form1.cs [Design]",
+              "RelativeToolTip": "80_57_Kiet_Truong_KTPM_MSUnit\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T02:24:53.622Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
