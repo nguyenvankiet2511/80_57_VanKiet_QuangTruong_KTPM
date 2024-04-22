@@ -1,0 +1,8 @@
+﻿a,b,c,expected
+3,4,5,Tam giac vuong
+7,7,7, Tam giac deu
+6,4,8, Tam giac tu
+4,4,7, Tam giac can
+7,8,9, Tam giac nhon
+5,8,10, Tam giac tu
+4,2,7, Khong phai tam giac

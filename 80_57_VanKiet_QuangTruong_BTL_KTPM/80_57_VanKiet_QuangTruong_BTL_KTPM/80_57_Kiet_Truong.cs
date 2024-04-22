@@ -29,17 +29,17 @@ namespace _80_57_VanKiet_QuangTruong_BTL_KTPM
             var options = new ChromeOptions();
             if(profile == 0)
             {
-                options.AddArgument("user-data-dir=C:\\Users\\T470p\\AppData\\Local\\Google\\Chrome\\User Data\\");
-                options.AddArgument("profile-directory=Profile 8");
+                options.AddArgument("user-data-dir=C:\\Users\\Admin\\AppData\\Local\\Google\\Chrome\\User Data\\");
+                options.AddArgument("profile-directory=Default");
             }
             else if(profile == 1)
             {
-                options.AddArgument("user-data-dir=C:\\Users\\T470p\\AppData\\Local\\Google\\Chrome\\User Data\\");
+                options.AddArgument("user-data-dir=C:\\Users\\Admin\\AppData\\Local\\Google\\Chrome\\User Data\\");
                 options.AddArgument("profile-directory=Profile 2");
             }
             else if (profile == 2)
             {
-                options.AddArgument("user-data-dir=C:\\Users\\T470p\\AppData\\Local\\Google\\Chrome\\User Data\\");
+                options.AddArgument("user-data-dir=C:\\Users\\Admin\\AppData\\Local\\Google\\Chrome\\User Data\\");
                 options.AddArgument("profile-directory=Profile 3");
             }
             options.AddArgument("--start-maximized");
@@ -92,14 +92,16 @@ namespace _80_57_VanKiet_QuangTruong_BTL_KTPM
             setUp(0);//Profile đã đăng nhập
             driver_80_57.Navigate().GoToUrl("https://www.shutterstock.com/vi/image-photo/man-stroking-his-old-dog-loyal-2214665467");
             //80_Kiet
+            Thread.Sleep(5000);
             driver_80_57.FindElement(By.XPath("/html/body/div[1]/div[3]/div/div/div[1]/div[2]/div[1]/div/div/div/div[1]/div/div[2]/div/div[1]/div[2]/div[1]/div[1]/button")).Click();
             //80_Kiet
+            Thread.Sleep(5000);
             driver_80_57.FindElement(By.XPath("/html/body/div[8]/div[3]/div/div/div[2]/div[2]/div[2]/div/button")).Click();
         }
 
         private void btn_TC2_LuuVaoBoSuuTapMD_80_Kiet_Click(object sender, EventArgs e)
         {
-            setUp(1);//Profile đã đăng nhâp
+            setUp(0);//Profile đã đăng nhâp
             driver_80_57.Navigate().GoToUrl("https://www.shutterstock.com/vi/image-photo/man-stroking-his-old-dog-loyal-2214665467");
             //80_Kiet
             driver_80_57.FindElement(By.XPath("/html/body/div[1]/div[3]/div/div/div[1]/div[2]/div[1]/div/div/div/div[1]/div/div[2]/div/div[1]/div[2]/div[1]/div[1]/button")).Click();
@@ -121,14 +123,18 @@ namespace _80_57_VanKiet_QuangTruong_BTL_KTPM
             //80_VanKiet
             driver_80_57.FindElement(By.CssSelector("#primaryNavItems > div:nth-child(4) > div")).Click();
             //80_VanKiet
+            Thread.Sleep(5000);
             driver_80_57.FindElement(By.CssSelector("#__next > div.MuiContainer-root.MuiContainer-disableGutters.mui-sgxi1e-root >" +
                 " div > div.MuiBox-root.mui-1fjtzvx > div.mui-e11pc7-content > div:nth-child(2) > div.mui-1e99pvw-root > div > div >" +
                 " div:nth-child(1) > div > div > div")).Click();
-            driver_80_57.FindElement(By.Id(":r9:")).SendKeys("80_57_Kiet_Truong");//Tìm và thiết lập giá trị cho ô tên thiết kế
-            driver_80_57.FindElement(By.Id(":ra:")).SendKeys("80");//Tìm và thiết lập giá trị cho ô chiều rộng cho phép
-            driver_80_57.FindElement(By.Id(":rb:")).SendKeys("57");//Tìm và thiết lập giá trị cho ô chiều cao cho phép
+            Thread.Sleep(5000);
+
+            driver_80_57.FindElement(By.CssSelector("input[type='text']")).SendKeys("80_57_Kiet_Truong");//Tìm và thiết lập giá trị cho ô tên thiết kế
+            driver_80_57.FindElement(By.XPath("/html/body/div[7]/div[3]/div/div/div[2]/div[2]/div/input")).SendKeys("");//Tìm và thiết lập giá trị cho ô chiều rộng cho phép
+            driver_80_57.FindElement(By.XPath("/html/body/div[7]/div[3]/div/div/div[2]/div[3]/div/input")).SendKeys("");//Tìm và thiết lập giá trị cho ô chiều cao cho phép
             //80_VanKiet
-            driver_80_57.FindElement(By.XPath("/html/body/div[5]/div[3]/div/div/div[2]/button")).Click();
+            driver_80_57.FindElement(By.CssSelector("body > div.MuiDialog-root.MuiModal-root.mui-126xj0f > div.MuiDialog-container.MuiDialog-scrollPaper.mui-16u656j " +
+                "> div > div > div.MuiBox-root.mui-rd591t > button")).Click();
            
            
         }
@@ -137,16 +143,21 @@ namespace _80_57_VanKiet_QuangTruong_BTL_KTPM
         {
             setUp(0);
             navigate();
-            //80_VanKiet Tìm kiếm và nhấn Click() vào nút Sáng tạo
+            //80_VanKiet
             driver_80_57.FindElement(By.CssSelector("#primaryNavItems > div:nth-child(4) > div")).Click();
-            //80_VanKiet Tìm kiếm và nhấn Click() vào nút Kích thước tùy chỉnh
+            //80_VanKiet
+            Thread.Sleep(5000);
             driver_80_57.FindElement(By.CssSelector("#__next > div.MuiContainer-root.MuiContainer-disableGutters.mui-sgxi1e-root >" +
                 " div > div.MuiBox-root.mui-1fjtzvx > div.mui-e11pc7-content > div:nth-child(2) > div.mui-1e99pvw-root > div > div >" +
                 " div:nth-child(1) > div > div > div")).Click();
-            driver_80_57.FindElement(By.Id(":ra:")).SendKeys("80");//Tìm và thiết lập giá trị cho ô chiều rộng cho phép
-            driver_80_57.FindElement(By.Id(":rb:")).SendKeys("57");//Tìm và thiết lập giá trị cho ô chiều cao cho phép
-            //80_VanKiet Tìm kiếm và nhấn Click() vào nút Tạo thiết kế
-            driver_80_57.FindElement(By.XPath("/html/body/div[5]/div[3]/div/div/div[2]/button")).Click();
+            Thread.Sleep(5000);
+            driver_80_57.FindElement(By.CssSelector("input[type='text']")).SendKeys("");//Tìm và thiết lập giá trị cho ô tên thiết kế
+            driver_80_57.FindElement(By.XPath("/html/body/div[7]/div[3]/div/div/div[2]/div[2]/div/input")).SendKeys("");//Tìm và thiết lập giá trị cho ô chiều rộng cho phép
+            driver_80_57.FindElement(By.XPath("/html/body/div[7]/div[3]/div/div/div[2]/div[3]/div/input")).SendKeys("");//Tìm và thiết lập giá trị cho ô chiều cao cho phép
+            //80_VanKiet
+            driver_80_57.FindElement(By.CssSelector("body > div.MuiDialog-root.MuiModal-root.mui-126xj0f > " +
+                "div.MuiDialog-container.MuiDialog-scrollPaper.mui-16u656j > div > div > div.MuiBox-root.mui-rd591t > button")).Click();
+
         }
 
         private void Btn1_TKHinhAnh_Click(object sender, EventArgs e)//upload ảnh thành công
